@@ -1,0 +1,92 @@
+@import"../utils/variables";
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.bardeau_img {
+    width: 50%;
+    background: gold;
+}
+
+.bloc_actus {
+    width: 50%;
+}
+
+.bardot {
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.un {
+    background-image: url(img/cesson_img1.png);
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.annonce {
+    color: white;
+    margin-bottom: 7px;
+}
+
+.elite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 30px;
+    background: grey;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.logo_elite {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.club {
+    margin-top: 10px;
+    color: white;
+}
+
+.vs {
+    color: white;
+    font-size: 30px;
+}
+
+.amateur {
+    display: flex;
+    margin-top: 15px;
+}
+
+.N3 {
+    border-radius: 30px;
+    background: grey;
+}
